@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Boss-DD8-Vocal-Fx",
-    "slug": "Boss-DD8-Vocal-Fx",
+    "name": "boss-dd8-vocal-fx",
+    "slug": "boss-dd8-vocal-fx",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
