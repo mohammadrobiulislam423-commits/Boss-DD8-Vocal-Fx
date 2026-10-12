@@ -1,20 +1,30 @@
 {
   "expo": {
-    "name": "boss-dd8-vocal-fx",
-    "slug": "boss-dd8-vocal-fx",
+    "name": "Boss-DD8-Vocal-Fx",
+    "slug": "Boss-DD8-Vocal-Fx",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "android": {
-      "package": "com.robiul2007.bossdd8vocalfx"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "aff241fd-7571-4768-b5d1-87f477e44697"
+      "package": "com.robiul.bossdd8vocalfx",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone for vocal FX and recording."
+        }
+      ]
+    ]
   }
 }
