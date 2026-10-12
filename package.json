@@ -2,12 +2,12 @@
   "name": "boss-dd8-vocal-fx",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
+ "scripts": {
+  "start": "expo start",
+  "android": "expo run:android",
+  "ios": "expo run:ios",
+  "web": "expo start --web"
+},
   "dependencies": {
     "@react-native-community/slider": "4.5.2",
     "expo": "~51.0.0",
